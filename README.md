@@ -1,6 +1,10 @@
-# Hugo deployed on Netlify &nbsp;&nbsp;&nbsp;[![Netlify Status](https://api.netlify.com/api/v1/badges/a9051244-5758-46bf-97cb-42efc2ff5961/deploy-status)](https://app.netlify.com/sites/plantswap/deploys)
+# Hugo deployed on Netlify &nbsp;&nbsp;&nbsp;[![Netlify Status](https://api.netlify.com/api/v1/badges/a9051244-5758-46bf-97cb-42efc2ff5961/deploy-status)](https://app.netlify.com/sites/hugo-demo-netlify/deploys)
 
 Example of using [Hugo](https://gohugo.io/) deployed on [Netlify](https://www.netlify.com/)
+
+## Online demo
+
+[Demo](https://hugo-demo-netlify.netlify.app/)
 
 ## 1-click deployment on Netlify
 
