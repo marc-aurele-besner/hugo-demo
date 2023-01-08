@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "start",
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "dependsOrder": "sequence",
+        "dependsOn": [
+          "check",
+          "start-dev"
+        ]
+      },
+      {
+        "label": "check",
+        "type": "shell",
+        "command": "hugo version",
+        "presentation": {
+          "panel": "dedicated"
+        }
+      },
+      {
+        "label": "start-dev",
+        "type": "shell",
+        "command": "hugo server",
+        "presentation": {
+          "panel": "dedicated"
+        }
+      }
+    ]
+  }
